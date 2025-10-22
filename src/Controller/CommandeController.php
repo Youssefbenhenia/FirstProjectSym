@@ -24,4 +24,10 @@ final class CommandeController extends AbstractController
 
         return $this->redirectToRoute('manual_hello');
     }
+    /*#[Route('/go', name: 'commande_goToIndex')]
+    public function goToIndex()
+    {
+
+        return $this->redirectToRoute('manual_hello');
+    }*/
 }
